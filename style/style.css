@@ -1,0 +1,50 @@
+td , th {
+  vertical-align: middle;
+  text-align: center;
+}
+td:first-of-type, td:first-of-type > div {
+  height:200px;
+  width:250px;
+}
+svg {
+  height:150;
+  width:150;
+}
+.search-bar {
+  margin:20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-bar input {
+  width: 100%;
+  border:2px solid #ddd;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.video-item img {
+  max-width:64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #5aaca7;
+}
+.list-group-item:hover h5{
+  color: #f0f9f8;
+}
+.list-group-item:active {
+  background-color: #306660;
+}
